@@ -1,0 +1,26 @@
+.background__container{
+    position: fixed;
+    width: calc(100% + 125px);
+    height: calc(100% + 125px);
+    display: flex;
+    align-items: flex-end;
+    filter: blur(25px);
+    top: -50px;
+    left: -50px;
+    opacity: .75;
+}
+
+.background__hills{
+    width: 100%;
+}
+
+.app-background__container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.app-background__hills{
+    width: 100%;
+    height: 100%;
+}

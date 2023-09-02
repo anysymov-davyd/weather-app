@@ -1,0 +1,57 @@
+.app-content__container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 48px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.app-content__header{
+    display: grid;
+    grid-template-columns: 1fr 36px;
+    gap: 48px;
+}
+
+.app-content__data-set{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.app-content__temperature{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.app-content__data-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 48px;
+    row-gap: 24px;
+}
+
+.app-content__input-switch{
+    position: relative;
+}
+
+.app-content__switch-item{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.app-content__data-set-animation{
+    position: relative;
+}
+
+.app-content__data-set-animation .--animation{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}

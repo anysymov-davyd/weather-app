@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+
+import Background from './components/Background'
+import AppContent from './components/AppContent'
 
 function App() {
+  const [data, setData] = useState(null)
+
+  const handleData = dataSet => {
+    setData(dataSet)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+      <Background data={data}/>
+      <div className='app-container'>
+        <Background isForwardBackground={true} data={data}/>
+        <AppContent onDataUpdate={handleData}/>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
