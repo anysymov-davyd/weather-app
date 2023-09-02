@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/anysymov-davyd/weather-app/static/css/main.978dd177.css",
+    "main.js": "/anysymov-davyd/weather-app/static/js/main.65be199b.js",
+    "static/media/OpenSans-Bold.ttf": "/anysymov-davyd/weather-app/static/media/OpenSans-Bold.45847e90261782dc01a6.ttf",
+    "static/media/OpenSans-Regular.ttf": "/anysymov-davyd/weather-app/static/media/OpenSans-Regular.9a6cfa5890d7f3eef585.ttf",
+    "static/media/pressure.svg": "/anysymov-davyd/weather-app/static/media/pressure.49e97c0d7423f179f497d7a77f746e06.svg",
+    "static/media/wind.svg": "/anysymov-davyd/weather-app/static/media/wind.ca104af6625434cc3d650ba9cfca0aac.svg",
+    "static/media/search.svg": "/anysymov-davyd/weather-app/static/media/search.f5c5e0cb913a71cc0db9.svg",
+    "index.html": "/anysymov-davyd/weather-app/index.html",
+    "static/media/humidity.svg": "/anysymov-davyd/weather-app/static/media/humidity.9eaed950fd93ad8b8a8e8c812e505656.svg",
+    "static/media/temperature.svg": "/anysymov-davyd/weather-app/static/media/temperature.027d35630e3a5c03db78141b9c37f589.svg",
+    "main.978dd177.css.map": "/anysymov-davyd/weather-app/static/css/main.978dd177.css.map",
+    "main.65be199b.js.map": "/anysymov-davyd/weather-app/static/js/main.65be199b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.978dd177.css",
+    "static/js/main.65be199b.js"
+  ]
+}
