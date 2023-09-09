@@ -98,6 +98,18 @@ const
             sky: color_palette.sky.classic__night,
             ground: color_palette.ground.frozen__night
         },
+        'frozen_clouds_morning-day': {
+            sky: color_palette.sky["clouds__morning-day"],
+            ground: color_palette.ground["frozen__morning-day"]
+        },
+        'frozen_clouds_evening': {
+            sky: color_palette.sky.clouds__evening,
+            ground: color_palette.ground.frozen__evening
+        },
+        'frozen_clouds_night': {
+            sky: color_palette.sky.classic__night,
+            ground: color_palette.ground.frozen__night
+        },
         'snowy_peaks': ['#D9D9D9', '#B4B4B4', '#999999']
     }
 
