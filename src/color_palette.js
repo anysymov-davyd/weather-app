@@ -86,6 +86,30 @@ const
             sky: color_palette.sky.classic__night,
             ground: color_palette.ground.classic__night
         },
+        'cold_clouds_morning-day': {
+            sky: color_palette.sky["clouds__morning-day"],
+            ground: color_palette.ground["cold__morning-day"]
+        },
+        'cold_clouds_evening': {
+            sky: color_palette.sky.clouds__evening,
+            ground: color_palette.ground.cold__evening
+        },
+        'cold_clouds_night': {
+            sky: color_palette.sky.classic__night,
+            ground: color_palette.ground.classic__night
+        },
+        'cold_rain_morning-day': {
+            sky: color_palette.sky["rain__morning-day"],
+            ground: color_palette.ground["cold__morning-day"]
+        },
+        'cold_rain_evening': {
+            sky: color_palette.sky.rain__evening,
+            ground: color_palette.ground.cold__evening
+        },
+        'cold_rain_night': {
+            sky: color_palette.sky.rain__night,
+            ground: color_palette.ground.classic__night
+        },
         'frozen_clear_morning-day': {
             sky: color_palette.sky["frozen__morning-day"],
             ground: color_palette.ground["frozen__morning-day"]
@@ -107,6 +131,18 @@ const
             ground: color_palette.ground.frozen__evening
         },
         'frozen_clouds_night': {
+            sky: color_palette.sky.classic__night,
+            ground: color_palette.ground.frozen__night
+        },
+        'frozen_rain_morning-day': {
+            sky: color_palette.sky["clouds__morning-day"],
+            ground: color_palette.ground["frozen__morning-day"]
+        },
+        'frozen_rain_evening': {
+            sky: color_palette.sky.clouds__evening,
+            ground: color_palette.ground.frozen__evening
+        },
+        'frozen_rain_night': {
             sky: color_palette.sky.classic__night,
             ground: color_palette.ground.frozen__night
         },
