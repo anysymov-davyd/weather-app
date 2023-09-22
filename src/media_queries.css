@@ -1,0 +1,100 @@
+@media (max-width: 850px) {
+    div.background__container {
+        display: none;
+    }
+    div.app-container {
+        width: 100vw;
+        height: 100vh;
+        max-height: 100vh;
+    }
+    div.app-content__data-set {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    div.app-content__temperature {
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        bottom: 35vh;
+    }
+    div.app-content__temperature div.label__container {
+        align-items: center;
+    }
+}
+
+@media (max-width: 850px) {
+    svg.app-background__hills {
+        max-width: 100vw;
+        max-height: 100vh;
+        height: 100vw;
+        position: absolute;
+    }
+    div.app-content__data-grid {
+        column-gap: 32px;
+    }
+    div.search-button {
+        width: 14px;
+        height: 14px;
+        padding: 8px;
+        width: 8px;
+        height: 8px;
+        background-size: 10px;
+    }
+    input.search-input {
+        height: 24px;
+        padding: 0 12px;
+        font-size: 10px;
+    }
+    div.app-content__header {
+        grid-template-columns: 1fr 24px;
+        gap: 24px;
+    }
+    div.app-content__switch-item {
+        padding-top: 0 !important;
+    }
+    div.app-content__switch-item .text1 {
+        margin-top: 4px;
+    }
+}
+
+@media (max-width: 850px) and (min-width: 530px) {
+    svg.app-background__hills {
+        scale: 3.5;
+        left: -125vw;
+        bottom: 15vh;
+    }
+}
+
+@media (max-width: 530px) and (min-width: 380px) {
+    svg.app-background__hills {
+        scale: 3.5;
+        left: -125vw;
+        bottom: 25vh;
+    }
+}
+
+@media (max-width: 380px) {
+    span.text1 {
+        font-size: 10px;
+    }
+    span.text2 {
+        font-size: 14px;
+        white-space: nowrap;
+    }
+    span.text3 {
+        font-size: 60px;
+    }
+    div.app-content__container {
+        left: 0;
+    }
+    svg.app-background__hills {
+        scale: 4;
+        left: -150vw;
+        bottom: 25vh;
+    }
+    div.icon-label__container img {
+        width: 22px;
+        height: 35px;
+    }
+}

@@ -10,12 +10,9 @@ import IconLabel from './../components/IconLabel'
 import SearchButton from './SearchButton'
 import SearchInput from './SearchInput'
 
-const AppContent = ({ onDataUpdate }) => {
-    // API keys
-    const
-        openWeatherApiKey = '09424d68e0837fd9aac76c56f4bd53d7',
-        geoApiKey = '598af13b1c1147729878e3ae2f646406'
+import { openWeatherApiKey, geoApiKey } from './../api_keys.js'
 
+const AppContent = ({ onDataUpdate }) => {
     const
         // Has user switched to search input?
         [switchSearch, setSwitchSearch] = useState(false),

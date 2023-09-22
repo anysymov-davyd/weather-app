@@ -32,15 +32,18 @@ const SearchInput = ({ isFocused, onSearch }) => {
                 .then(response => response.json())
                 .then(response => {
                     const arr = []
-                    response.data.map(elem => arr.push({
-                        city: elem.name,
-                        country: elem.country,
-                        latitude: elem.latitude,
-                        longitude: elem.longitude
-                    }))
+                    if(response.data !== undefined){
+                        response.data.map(elem => arr.push({
+                            city: elem.name,
+                            country: elem.country,
+                            latitude: elem.latitude,
+                            longitude: elem.longitude
+                        }))
+                    }
                     setOptionSet(arr)
                 })
-            }, 200)
+                .catch(error => console.error(error))
+            }, 500)
             setTimer(newTimer)
         } else {
             setOptionSet([])

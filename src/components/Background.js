@@ -12,7 +12,7 @@ const Background = ({ data, isForwardBackground = false }) => {
     })
 
     const [palette, setPalette] = useState(null)
-
+    
     const [currentHour, setCurrentHour] = useState(0)
 
     const weatherConditions = [
@@ -37,6 +37,7 @@ const Background = ({ data, isForwardBackground = false }) => {
         isRaining: [2, 5].includes(Number(String(weatherData.id)[0]))
     }
 
+    // Every time, when data is recieved, define new palette
     useEffect(() => {
         if(data !== null){
             setWeatherData(data)
@@ -60,14 +61,14 @@ const Background = ({ data, isForwardBackground = false }) => {
                 weather: 'clear',
             }
 
-            weatherConditions.map(elem => {
-                elem.idSet.map(id => {
+            weatherConditions.forEach(elem => {
+                elem.idSet.forEach(id => {
                     if(id === data.id) {
                         paletteParts.weather = elem.name
                     }
                 })
             })
-
+            
             setPalette(`${paletteParts.temperature}_${paletteParts.weather}_${paletteParts.time}`)
         }
     }, [data])
