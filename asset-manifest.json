@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/weather-app/static/css/main.abd40202.css",
-    "main.js": "/weather-app/static/js/main.1f3da7c3.js",
-    "static/media/OpenSans-Bold.ttf": "/weather-app/static/media/OpenSans-Bold.45847e90261782dc01a6.ttf",
-    "static/media/OpenSans-Regular.ttf": "/weather-app/static/media/OpenSans-Regular.9a6cfa5890d7f3eef585.ttf",
-    "static/media/pressure.svg": "/weather-app/static/media/pressure.49e97c0d7423f179f497d7a77f746e06.svg",
-    "static/media/wind.svg": "/weather-app/static/media/wind.ca104af6625434cc3d650ba9cfca0aac.svg",
-    "static/media/search.svg": "/weather-app/static/media/search.f5c5e0cb913a71cc0db9.svg",
-    "static/media/humidity.svg": "/weather-app/static/media/humidity.9eaed950fd93ad8b8a8e8c812e505656.svg",
-    "index.html": "/weather-app/index.html",
-    "static/media/temperature.svg": "/weather-app/static/media/temperature.027d35630e3a5c03db78141b9c37f589.svg",
-    "main.abd40202.css.map": "/weather-app/static/css/main.abd40202.css.map",
-    "main.1f3da7c3.js.map": "/weather-app/static/js/main.1f3da7c3.js.map"
+    "main.css": "/weather_app/static/css/main.ad7cd93d.css",
+    "main.js": "/weather_app/static/js/main.3bb8975c.js",
+    "static/media/OpenSans-Bold.ttf": "/weather_app/static/media/OpenSans-Bold.45847e90261782dc01a6.ttf",
+    "static/media/OpenSans-Regular.ttf": "/weather_app/static/media/OpenSans-Regular.9a6cfa5890d7f3eef585.ttf",
+    "static/media/pressure.svg": "/weather_app/static/media/pressure.49e97c0d7423f179f497d7a77f746e06.svg",
+    "static/media/wind.svg": "/weather_app/static/media/wind.ca104af6625434cc3d650ba9cfca0aac.svg",
+    "static/media/search.svg": "/weather_app/static/media/search.f5c5e0cb913a71cc0db9.svg",
+    "static/media/humidity.svg": "/weather_app/static/media/humidity.9eaed950fd93ad8b8a8e8c812e505656.svg",
+    "index.html": "/weather_app/index.html",
+    "static/media/temperature.svg": "/weather_app/static/media/temperature.027d35630e3a5c03db78141b9c37f589.svg",
+    "main.ad7cd93d.css.map": "/weather_app/static/css/main.ad7cd93d.css.map",
+    "main.3bb8975c.js.map": "/weather_app/static/js/main.3bb8975c.js.map"
   },
   "entrypoints": [
-    "static/css/main.abd40202.css",
-    "static/js/main.1f3da7c3.js"
+    "static/css/main.ad7cd93d.css",
+    "static/js/main.3bb8975c.js"
   ]
 }
